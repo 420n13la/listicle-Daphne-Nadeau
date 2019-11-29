@@ -1,0 +1,72 @@
+body{
+	width: 100%;
+}
+
+#wrapper{
+	width: 70%;
+	margin: auto;
+	background-color: white;
+	padding: 0px 20px;
+	border: 3px solid gray;
+	border-radius: 30px;
+}
+
+#all{
+	background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(images/listiclepattern1.jpg);
+}
+
+header{
+	background-image: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(images/listiclepattern2.jpg);
+	height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+h1{
+	font-family: 'Calistoga', cursive;
+	color: #424242;
+}
+
+h2{
+	font-family: 'Raleway', sans-serif;
+	background-color: lightgray;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+#first{
+	padding-top: 0px;
+}
+
+#last{
+	padding-bottom: 30px;
+}
+
+.items{
+	display: flex;
+	flex-direction: column;
+	padding-top: 30px;
+}
+
+.description{
+	font-family: 'Open Sans', sans-serif;
+}
+
+img{
+	width: 100%;
+	margin-top: 20px;
+	border-radius: 15px;
+}
+
+#name{
+	position: relative;
+	top: 87px;
+	font-family: 'Raleway', sans-serif;
+	background-color: white;
+	padding: 10px;
+	border: 2px solid lightgray;
+	border-radius: 15px;
+	width: 150px;;
+}
